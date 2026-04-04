@@ -1,0 +1,15 @@
+const ROLES = {
+  ADMIN: 'ADMIN',
+  ANALYST: 'ANALYST',
+  VIEWER: 'VIEWER',
+};
+
+const TRANSACTION_TYPES = {
+  INCOME: 'INCOME',
+  EXPENSE: 'EXPENSE',
+};
+
+module.exports = {
+  ROLES,
+  TRANSACTION_TYPES,
+};
