@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors');
 const config = require('./config');
 const { globalErrorHandler, notFoundHandler } = require('./middleware/error.middleware');
 const { requestLogger } = require('./middleware/logger.middleware');
@@ -6,6 +7,7 @@ const { requestLogger } = require('./middleware/logger.middleware');
 const app = express();
 
 // ─── Core Middleware ───────────────────────
+app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(requestLogger);
