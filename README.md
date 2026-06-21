@@ -1,15 +1,6 @@
-# ApexLedger — Secure Role-Based Finance Platform
+# Finease — Secure Role-Based Finance Platform
 
 A professional, full-stack financial ledger and analytical tracking platform. It consists of a robust Node.js/Express API backend and a modern React/Vite single-page frontend application, fully integrated with Role-Based Access Control (RBAC).
-
----
-
-## Suggested Names for your Resume
-If you are listing this project on your resume, here are a few premium and professional names you can use:
-1. **ApexLedger** (Reflects a peak-performance, enterprise-grade accounting sheet)
-2. **ShieldLedger** (Highlights the core security, auth, and access control capabilities)
-3. **FinRBAC Suite** (Emphasizes the technical implementation of Role-Based Access Control)
-4. **OmniLedger** (Suggests comprehensive analytical and transactional tracking)
 
 ---
 
